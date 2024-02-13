@@ -37,4 +37,21 @@ rohit.singh1@Indigos-MacBook-Pro-3 Gitdemo % git branch
   main
 If I try to delete "dev_rohit" branch so we get the ERROR: error: Cannot delete branch 'dev_rohit' checked out at '/Users/rohit.singh1/Desktop/React JS Learning/Gitdemo'
 
+# git diff <-branchName->
+- Here We are check what is defferences in both branch 1@ My current branch 2@ With which Branc we want to compare
+
+# git merge <-branchName->
+- For Merge Two Branch's Code.
+# WITH THE HELP OR PULL REQEST:-
+- For Code Merge We need to raise the PR(Pull Request) for the merge To The Senior Dev or Manager, 
+** PULL REQUEST: IT LETS YOU TELL OTHERS ABOUT CHANGES YOU'VE PUSHED TO A BRANCH IN A REPOSITORY ON GITHUB.
+
+
+# git pull origin main
+- After Merge we the code is merged on Git Remote Repo, In My Local updated code is not reflected, So we need to take a pull. To get the Updated code at Local.
+
+** USED TO FETCH AND DOWNLOAD CONTENT FROM A REMOTE REPO AND IMMEDIATELY UPDATE THE LOCAL REPO TO MATCH THAT CONTENT.
+
+# RESOLVING Merge Conflicts
+- AN EVENT THAT TAKES PLACE WHEN GIT IS UNABLE TO AUTOMATICALLY RESOLVE DIFFERANCES IN CODE BETWEEN TWO COMMITS.
 
