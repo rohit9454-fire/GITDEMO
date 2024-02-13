@@ -23,4 +23,18 @@
 # git push -u origin main
 - Here "u" is set the default branch for the push, It means We Don't write again and again whole santance can push my code using only 
 - "git push" but the branch is always "main"
+# git checkout <-branchName->
+- Navigate One Branch to another Branch.
+# git checkout -b <-branchName->
+- To Create A New Branch.   
+# git branch -d <-branchName->
+- To Delete the branch. *NOTE* We can not delete the branch if I'm on The Same Brach which i want to delete.
+
+Example: 
+rohit.singh1@Indigos-MacBook-Pro-3 Gitdemo % git branch               
+  dev
+* dev_rohit
+  main
+If I try to delete "dev_rohit" branch so we get the ERROR: error: Cannot delete branch 'dev_rohit' checked out at '/Users/rohit.singh1/Desktop/React JS Learning/Gitdemo'
+
 
